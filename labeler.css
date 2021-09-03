@@ -1,0 +1,56 @@
+body {
+  background: palegreen;
+  font-family: monospace;
+}
+.museum-title {
+  font-style: italic;
+  font-size: 3em;
+  text-align: center;
+  border: 0.5em black;
+  border-style: double;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.columns > div {
+  padding: 1em;
+  border: 1px dotted black;
+}
+
+.ci-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.ci-item {
+  padding: 1em;
+}
+
+.ci-item h1 {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.ci-image {
+  width: 14em;
+  float: right;
+  padding: 1em;
+}
+
+.pieces {
+  display: flex;
+  flex-direction: column;
+}
+
+.ci-item:nth-child(even) {
+  background: lightblue;
+}
+.ci-item:nth-child(odd) {
+  background: lightpink;
+}
